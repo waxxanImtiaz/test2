@@ -1,0 +1,22 @@
+<!--<h1 [id]="headId">-->
+<!--  Welcome {{name.toUpperCase()}}-->
+<!--</h1>-->
+
+<!--<label>-->
+<!--  <input type="text" value="Imtiaz" #myText/>-->
+<!--</label>-->
+<!--<br />-->
+<!--<button (click)="handleEvent(myText.value)" >Click Me</button>-->
+
+<!--<h1>{{textOnClick}}</h1>-->
+
+
+<!--<input type="text" value="Imtiaz" [(ngModel)]="people" />-->
+<!--<h1>{{people}}</h1>-->
+
+
+<div>
+  <ul *ngFor="let employee of employees" >
+    <li> first Name:{{employee.firstname}} ,Last Name:{{employee.lastname}}, age:{{employee.age}}</li>
+  </ul>
+</div>
